@@ -39,6 +39,9 @@ public class MainProram {
         }
     }
 
+    public static <T> boolean IsSizeEmpty(T[] list) {
+        return true;
+    }
 
     /**
      * 执行测试实例集合
