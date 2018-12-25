@@ -16,7 +16,7 @@ public class MainProram {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String str = null;
         try {
-            System.out.print(prompt);
+            Print.w(prompt);
             str = br.readLine();
         } catch (IOException e) {
             e.printStackTrace();
